@@ -1,3 +1,35 @@
 theme: jekyll-theme-minimal
 title: Manuel Braunschweiler
 description: Software Engineer with an established track-record in AR/XR.
+
+# generate social links in footer
+social_links:
+  # hackaday: UriSh
+  # twitter: UriShX
+  github: coding-brownie
+  # devto: jekyll
+  # dribbble: jekyll
+  # facebook: uri.sh.982
+  # flickr:   jekyll
+  # instagram: jekyll
+  linkedin: manuel-braunschweiler-414872140
+  # pinterest: jekyll
+  # youtube: jekyll
+  # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+  # youtube_channel_name: CloudCannon
+  # telegram: jekyll
+  # googleplus: +jekyll
+  # microdotblog: jekyll
+  # keybase: jekyll
+  # Mastodon instances
+  # mastodon:
+  # - username: jekyll
+  #   instance: example.com
+  # - username: jekyll2
+  #   instance: example.com
+  # GitLab instances
+  # gitlab:
+  # - username: jekyll
+  #   instance: example.com
+  # - username: jekyll2
+  #   instance: example.com
