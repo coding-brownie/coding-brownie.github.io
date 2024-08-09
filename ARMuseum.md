@@ -23,6 +23,9 @@ All UI developments were done in close collaboration with the in-house digital a
 On the CMS-side I spent notable time to develop a **visualization framework of the user data** gathered by the AR app. This includes Google BigData queries, visualization of the SVG floorplan and adding additional SVG content to visualize and highlight paths users have taken through the exhibition space. Following this line of work, I was also responsible for creating an SVG-based **editor to place art pieces** on an SVG image of the floorplan of the exhibition. 
 Furthermore I created various pages to **display and edit information stored in the database**, integrated the **file-upload system**, as well as the GridFS filesystem for the MongoDB database, and contributed greatly to the overall datastructures used in the database.  
 
+#### Student Thesis Supervision
+I supervised two Bachelor theses in this project. Both included existing neural networks to animate the paintings: One would create an [animated version of landscape paintings](https://gtc.inf.ethz.ch/research/student-projects/animated-paintings.html), by making clouds move and potentially change the time of day. The other one would use a short video of the user's face and use the facial expressions within to [animate a selected portrait painting](https://gtc.inf.ethz.ch/research/student-projects/facial-expression-transfer-ar.html). 
+
 ### Videos
 [![Parallelen](https://img.youtube.com/vi/3NR8IrEAsyI/0.jpg)](https://www.youtube.com/watch?v=3NR8IrEAsyI)  
 *Presentation of the app in Zurich for an exhibition of the ETH Graphische Sammlung (@GTC, 2020).*
