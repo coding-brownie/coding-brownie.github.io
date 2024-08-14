@@ -7,12 +7,29 @@ permalink: 'projects/ar-museum'
 ### ETH, GTC (2018-2021)
 **Technology Stack:** *Unity, C#, Vuforia, OpenCV, Vue.js, Javascript, MongoDB, GridFS, Google BigData*
 
-How can museum visits be enhanced with modern technology - especially AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based content management system (CMS) and museum visitors to experience said content through an app running on their personal device. The user facing app was developed with Unity, C# and Vuforia as AR image tracker. The curator facing website is implemented with Javascript, Vue.js and a MongoDB database.   
-Nowadays, this AR museum platform is part of an ETH Spinoff and marketed under the name [Viseum](https://aperionxr.com).
+<div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/sa1C9v-zqLg?autohide=1&autoplay=0"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Keyboard Cat"
+  >
+</div>
+<p style="margin-top:0;">
+<i style="font-size:0.8em;">Trailer of the exhibtion in Vienna of the Princely Collections (@GTC, 2021).</i>
+</p>
 
-<img src="../assets/img/cms_en.jpg" width="500">  
+How can museum visits be enhanced with modern technology - especially AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based content management system (CMS). Said content is then presented to the museum visitors through an app running on their personal devices. 
+The museum visitor facing app was developed with Unity, C# and Vuforia as AR image tracker. The curator facing website is implemented with Javascript, Vue.js and a MongoDB database.   
+This AR museum platform is now part of an ETH Spinoff and marketed under the name [Viseum](https://aperionxr.com).
 
-*Overview of the AR Museum platform (@Aperion XR, 2024).*  
+<img src="../assets/img/cms_en.jpg" width="80%" style="display: block; margin: 0 auto;">  
+<p style="margin-top:0;">
+    <i style="font-size:0.8em;">Overview of the AR Museum platform (@Aperion XR, 2024).</i>
+</p>
 
 
 ### My Contributions
@@ -31,13 +48,22 @@ Furthermore I created various pages to **display and edit information stored in 
 I supervised two Bachelor theses in this project. Both included existing neural networks to animate the paintings: One would create an [animated version of landscape paintings](https://gtc.inf.ethz.ch/research/student-projects/animated-paintings.html), by making clouds move and potentially change the time of day. The other one would use a short video of the user's face and use the facial expressions within to [animate a selected portrait painting](https://gtc.inf.ethz.ch/research/student-projects/facial-expression-transfer-ar.html). 
 
 ### Videos
-[![Parallelen](https://img.youtube.com/vi/3NR8IrEAsyI/0.jpg)](https://www.youtube.com/watch?v=3NR8IrEAsyI)  
-*Presentation of the app in Zurich for an exhibition of the ETH Graphische Sammlung (@GTC, 2020).*
+<div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/3NR8IrEAsyI?autohide=1&autoplay=0"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Keyboard Cat"
+  >
+</div>
+<p style="margin-top:0;">
+    <i style="font-size:0.8em;">Trailer of the "Parallelen" exhibition of the ETH Graphische Sammlung in Zurich (@GTC, 2020).</i>
+</p>
 
-[![Artifact](https://img.youtube.com/vi/sa1C9v-zqLg/0.jpg)](https://www.youtube.com/watch?v=sa1C9v-zqLg)  
-*Presentation of the app in Vienna for an exhibition of the Princely Collections (@GTC, 2021).*
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=3NR8IrEAsyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Links
 - [Research Page (ETH)](https://gtc.inf.ethz.ch/research/augmented-and-virtual-reality-research/behind-the-art.html)
