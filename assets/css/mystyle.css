@@ -1,0 +1,45 @@
+.projects-grid {
+    display: grid; 
+    width: 100%; 
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    grid-auto-rows: 280px;
+}
+
+.project-tile {
+    width: 90%; 
+    height: 250px; 
+    position: relative; 
+    box-shadow: 5px 5px 8px grey;
+    transition-duration: 0.3s;
+}
+
+.project-tile:hover {
+    transform: scale(1.08);
+}
+
+.project-tile-banner {
+    position:absolute; 
+    bottom:0px; 
+    color:#eeeeee; 
+    font-weight:bold; 
+    background-color:#00000088; 
+    height:50px; 
+    width:100%; 
+    display:flex; 
+    align-items:center;
+}
+
+.project-tile-banner p {
+    margin: 10px;
+}
+
+.expand {
+    width: 100%;
+    height: 100%;
+}
+
+img.expand {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

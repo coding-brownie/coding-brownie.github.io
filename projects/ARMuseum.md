@@ -1,12 +1,16 @@
-# AR Museum
+---
+layout: post
+title: 'AR Museum'
+permalink: 'projects/ar-museum'
+---
 
-#### ETH, GTC (2018-2021)
+### ETH, GTC (2018-2021)
 **Technology Stack:** *Unity, C#, Vuforia, OpenCV, Vue.js, Javascript, MongoDB, GridFS, Google BigData*
 
 How can museum visits be enhanced with modern technology - especially AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based content management system (CMS) and museum visitors to experience said content through an app running on their personal device. The user facing app was developed with Unity, C# and Vuforia as AR image tracker. The curator facing website is implemented with Javascript, Vue.js and a MongoDB database.   
 Nowadays, this AR museum platform is part of an ETH Spinoff and marketed under the name [Viseum](https://aperionxr.com).
 
-<img src="img/cms_en.jpg" width="500">  
+<img src="../assets/img/cms_en.jpg" width="500">  
 
 *Overview of the AR Museum platform (@Aperion XR, 2024).*  
 

@@ -1,9 +1,15 @@
-# Prismus (Gamelab 2015)
+---
+layout: post
+title: 'Prismus (Gamelab 2015)'
+permalink: 'projects/prismus'
+---
 
-#### ETH Zurich, Master Studies (2015)
+### ETH Zurich, Master Studies (2015)
 **Technology Stack:** *Unity3D, C#*
 
-<video src="videos/prismus.mp4" width="700" controls></video> 
+<video width="700" controls>
+    <source src="../assets/videos/prismus.mp4" type="video/mp4" />
+</video> 
 
 *Prismus trailer.*
 
