@@ -5,9 +5,14 @@
 layout: default
 ---
 
-# About me
-<img style="float:left; width:200px; margin-right:20px;" src="assets/img/manu2.png" alt="Manuel">
- <div style="float:left; width:70%; display:flex; align-items:center; margin-top:20px;">
+  <div style="position:relative; padding-top:0px; width:100%; height:284px; background-image:radial-gradient(ellipse at left bottom, #dddddd, #ffffff); border-bottom:solid 2px #5e0250bb;">
+    <img style="position:absolute; bottom:0px; width:min(300px, 60%);" src="assets/img/manu2_crop.png" alt="Manuel">
+    <div style="position:absolute; bottom:-2px; width:100%; height:2px; background-image:linear-gradient(120deg, #555555, #ffffff);"></div>
+</div>
+
+ 
+
+ <div style="width:100%; margin-top:20px;">
     <p>
     Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a src="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a src="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at Esri R&D and Disney Research|Studios, and completed my civil service duty helping in the software development team of two different Swiss hospitals. During my career I got the opportunity to work on the full stack of several 3D and AR applications, mobile applications and websites including their backend.
     </p>
