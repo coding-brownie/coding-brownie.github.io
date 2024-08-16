@@ -7,13 +7,13 @@ permalink: 'projects/gtm'
 ### ETH, Game Technology Center (2019-2020)
 **Technology Stack:** *Unity3D, C#, Firebase, Vuforia*
 
-<img style="width:100%;" src="../assets/img/gtm-header.jpg" alt="Header"/>
+<img style="width:80%; display: block; margin: 0 auto;" src="../assets/img/gtm-header.jpg" alt="Header"/>
 
 Gnome Trader Millennium is a team-based multiplayer AR game that is intended to be played outside. It is an adaptation of previous work at the Game Technology Center. Two teams face off against each other to win as many seeds as possible. Seeds can either be bought at gnome shops or harvested from trees. But, to grow a tree, you first have to plant a seed and water it. Seeds can be planted in your team's garden. Both, the 4 shops and gardens are only accessible at physical locations, where their respective AR image markers are placed. 
 
-<img style="float:left; width:30%;" src="../assets/img/GTM.png" alt=""/>
-<img style="float:left; width:30%; margin-left:5%;" src="../assets/img/GTM1.png" alt=""/>
-<img style="float:left; width:30%; margin-left:5%;" src="../assets/img/GTM2.png" alt=""/>
+<img style="float:left; width:30%;" src="../assets/img/GTM.png" alt="Gnome shop"/>
+<img style="float:left; width:30%; margin-left:5%;" src="../assets/img/GTM1.png" alt="Garden"/>
+<img style="float:left; width:30%; margin-left:5%;" src="../assets/img/GTM2.png" alt="Garden UI"/>
 <div style="float:none;">
 <p style="margin-top:0;">
 <i style="font-size:0.8em;">Gnome shops and garden.</i>
