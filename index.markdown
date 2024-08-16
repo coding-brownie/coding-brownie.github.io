@@ -24,7 +24,7 @@ layout: default
 A selection of projects that I have been involved in:
 <div class="projects-grid">
     <div class="project-tile">
-        <a href="projects/ar-Characters" class="expand">
+        <a href="projects/ar-characters" class="expand">
             <img src="assets/img/ar-characters.jpg" class="expand">
             <div class="project-tile-banner">
                 <p style="margin: 10px;">Scene-Aware AR Characters</p>
