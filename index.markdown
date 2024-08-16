@@ -6,7 +6,7 @@ layout: default
 ---
 
   <div style="position:relative; padding-top:0px; width:100%; height:284px; background-image:radial-gradient(ellipse at left bottom, #dddddd, #ffffff); border-bottom:solid 2px #5e0250bb;">
-    <img style="position:absolute; bottom:0px; width:min(300px, 60%);" src="assets/img/manu2_crop.png" alt="Manuel">
+    <img style="position:absolute; bottom:0px; width:min(300px, 60%);" src="./assets/img/manu2_crop.png" alt="Manuel">
     <div style="position:absolute; bottom:-2px; width:100%; height:2px; background-image:linear-gradient(120deg, #555555, #ffffff);"></div>
 </div>
 
