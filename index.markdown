@@ -25,7 +25,7 @@ A selection of projects that I have been involved in:
 <div class="projects-grid">
     <div class="project-tile">
         <a href="projects/ar-characters" class="expand">
-            <img src="assets/img/ar-characters.jpg" class="expand">
+            <img src="assets/img/kiat-cover.jpg" class="expand">
             <div class="project-tile-banner">
                 <p style="margin: 10px;">Scene-Aware AR Characters</p>
             </div>
@@ -33,7 +33,7 @@ A selection of projects that I have been involved in:
     </div>
     <div class="project-tile">
         <a href="projects/ar-museum" class="expand">
-            <img src="assets/img/Static Teaser CAGO.jpg" class="expand">
+            <img src="assets/img/bta-cover.jpg" class="expand">
             <div class="project-tile-banner">
                 <p style="margin: 10px;">AR Museum</p>
             </div>
@@ -49,7 +49,7 @@ A selection of projects that I have been involved in:
     </div>
     <div class="project-tile">
         <a href="projects/master-thesis" class="expand">
-            <img src="assets/img/spookyBedroom.png" class="expand">
+            <img src="assets/img/drz-spookyBedroom.png" class="expand">
             <div class="project-tile-banner">
                 <p style="margin: 10px;">Interactive Storytelling in AR/VR</p>
             </div>
@@ -82,4 +82,4 @@ A selection of projects that I have been involved in:
 </div>
 
 # Contact
-For questions, collaborations or work opportunities, please feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/manuel-braunschweiler-414872140/).
+For questions, collaborations or work opportunities, please reach out to me on [LinkedIn](https://www.linkedin.com/in/manuel-braunschweiler-414872140/).
