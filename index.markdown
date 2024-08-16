@@ -14,23 +14,15 @@ layout: default
 
  <div style="width:100%; margin-top:20px;">
     <p>
-    Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a src="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a src="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at Esri R&D and Disney Research|Studios, and completed my civil service duty helping in the software development team of two different Swiss hospitals. During my career I got the opportunity to work on the full stack of several 3D and AR applications, mobile applications and websites including their backend.
+    Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a src="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a src="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at Esri R&D and Disney Research|Studios, and completed my civil service duty helping in the software development team of two different Swiss hospitals. During my career I got the opportunity to work on the full stack of several 3D and AR applications, webistes and mobile applications.
     </p>
 </div>
 
 <div style="clear:both; float:none;"></div> 
 
 # Projects
-A selection of projects that I have been working on:
+A selection of projects that I have been involved in:
 <div class="projects-grid">
-    <div class="project-tile">
-        <a href="projects/ar-museum" class="expand">
-            <img src="assets/img/Static Teaser CAGO.jpg" class="expand">
-            <div class="project-tile-banner">
-                <p style="margin: 10px;">AR Museum</p>
-            </div>
-        </a>
-    </div>
     <div class="project-tile">
         <a href="projects/ar-Characters" class="expand">
             <img src="assets/img/ar-characters.jpg" class="expand">
@@ -40,18 +32,18 @@ A selection of projects that I have been working on:
         </a>
     </div>
     <div class="project-tile">
-        <a href="projects/gtm" class="expand">
-            <img src="assets/img/GTM2.png" class="expand">
+        <a href="projects/ar-museum" class="expand">
+            <img src="assets/img/Static Teaser CAGO.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">AR Multiplayer Game</p>
+                <p style="margin: 10px;">AR Museum</p>
             </div>
         </a>
     </div>
     <div class="project-tile">
-        <a href="projects/bachelor-thesis" class="expand">
-            <img src="assets/img/eleCubeComparison.jpg" class="expand">
+        <a href="projects/gtm" class="expand">
+            <img src="assets/img/gtm-header.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">3D Painting Approximation</p>
+                <p style="margin: 10px;">Gnome Trader Millennium</p>
             </div>
         </a>
     </div>
@@ -76,6 +68,14 @@ A selection of projects that I have been working on:
             <img src="assets/img/prismus.jpg" class="expand">
             <div class="project-tile-banner">
                 <p style="margin: 10px;">Prismus</p>
+            </div>
+        </a>
+    </div>
+    <div class="project-tile">
+        <a href="projects/bachelor-thesis" class="expand">
+            <img src="assets/img/eleCubeComparison.jpg" class="expand">
+            <div class="project-tile-banner">
+                <p style="margin: 10px;">3D Painting Approximation</p>
             </div>
         </a>
     </div>

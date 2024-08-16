@@ -4,7 +4,7 @@ title: 'AR Museum'
 permalink: 'projects/ar-museum'
 ---
 
-### ETH, GTC (2018-2021)
+### ETH, Game Technology Center (2019-2021)
 **Technology Stack:** *Unity, C#, Vuforia, OpenCV, Vue.js, Javascript, MongoDB, GridFS, Google BigData*
 
 <div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
