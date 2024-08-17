@@ -21,7 +21,7 @@ permalink: 'projects/ar-characters'
     <img src="../assets/img/python.png" alt="Python">
   </div>
   <div class="icon-container float-left">
-    <img src="../assets/img/openAI.png" alt="OpenAI">
+    <img src="../assets/img/openai.png" alt="OpenAI">
   </div>
   <div class="icon-container float-left">
     <img src="../assets/img/googleTTS.png" alt="Google TTS">
