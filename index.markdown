@@ -75,7 +75,7 @@ A selection of projects that I have been involved in:
     </div>
     <div class="project-tile">
         <a href="projects/ar-museum" class="expand">
-            <img src="assets/img/bta-cover.jpg" class="expand">
+            <img src="assets/img/bta-cover.jpeg" class="expand">
             <div class="project-tile-banner">
                 <p style="margin:10px;">AR Museum</p>
             </div>
