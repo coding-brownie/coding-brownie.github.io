@@ -6,7 +6,14 @@ permalink: 'projects/prismus'
 
 ### ETH Zurich, Master Studies (2015)
 **Technology Stack:** *Unity3D, C#*
-
+<div class="project-page-icon-bar">
+  <div class="icon-container float-left">
+    <img src="../assets/img/unity.png" alt="Unity">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/csharp.png" alt="C#">
+  </div>
+</div>
 
 <div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
   <embed

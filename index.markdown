@@ -7,6 +7,37 @@ layout: default
 
   <div style="position:relative; padding-top:0px; width:100%; height:284px; background-image:radial-gradient(ellipse at left bottom, #dddddd, #ffffff); border-bottom:solid 2px #5e0250bb;">
     <img style="position:absolute; bottom:0px; width:min(300px, 60%);" src="./assets/img/manu2_crop.png" alt="Manuel">
+    <div style="position:absolute; height:284px; bottom:0px; right:0px; width:40%; display:flex; align-items:center;">
+        <div class="icon-grid" style="position:absolute; bottom:30px; right:20px; width:100%; ">
+            <div class="icon-container">
+                <img src="assets/img/unity.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/csharp.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/c++.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/javascript.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/vuejs.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/nodejs.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/mongodb.png">
+            </div>
+            <div class="icon-container">
+                <img src="assets/img/openai.png">
+            </div>
+            <div class="icon-container">
+                <img style="width:36px;" src="assets/img/firebase.png">
+            </div>
+        </div>
+    </div>
     <div style="position:absolute; bottom:-2px; width:100%; height:2px; background-image:linear-gradient(120deg, #555555, #ffffff);"></div>
 </div>
 
@@ -27,7 +58,18 @@ A selection of projects that I have been involved in:
         <a href="projects/ar-characters" class="expand">
             <img src="assets/img/kiat-cover.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">Scene-Aware AR Characters</p>
+                <p style="margin:10px;">Scene-Aware AR Characters</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/unity.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/csharp.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/openai.png">
+                </div>
             </div>
         </a>
     </div>
@@ -35,7 +77,27 @@ A selection of projects that I have been involved in:
         <a href="projects/ar-museum" class="expand">
             <img src="assets/img/bta-cover.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">AR Museum</p>
+                <p style="margin:10px;">AR Museum</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/unity.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/csharp.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/vuejs.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/javascript.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/nodejs.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/mongodb.png">
+                </div>
             </div>
         </a>
     </div>
@@ -43,7 +105,18 @@ A selection of projects that I have been involved in:
         <a href="projects/gtm" class="expand">
             <img src="assets/img/gtm-header.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">Gnome Trader Millennium</p>
+                <p style="margin:10px;">Gnome Trader Millennium</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/unity.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/csharp.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/firebase.png">
+                </div>
             </div>
         </a>
     </div>
@@ -51,7 +124,15 @@ A selection of projects that I have been involved in:
         <a href="projects/master-thesis" class="expand">
             <img src="assets/img/drz-spookyBedroom.png" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">Interactive Storytelling in AR/VR</p>
+                <p style="margin:10px;">Interactive Storytelling in AR/VR</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/unity.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/csharp.png">
+                </div>
             </div>
         </a>
     </div>
@@ -59,7 +140,18 @@ A selection of projects that I have been involved in:
          <a href="projects/esri" class="expand">
             <img src="assets/img/esri-cover.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">Interactive Storytelling with ArcGIS</p>
+                <p style="margin:10px;">Interactive Storytelling with ArcGIS</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/javascript.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/react.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/redux.png">
+                </div>
             </div>
        </a>
     </div>
@@ -67,7 +159,15 @@ A selection of projects that I have been involved in:
         <a href="projects/prismus" class="expand">
             <img src="assets/img/prismus.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">Prismus</p>
+                <p style="margin:10px;">Prismus</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/unity.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/csharp.png">
+                </div>
             </div>
         </a>
     </div>
@@ -75,7 +175,15 @@ A selection of projects that I have been involved in:
         <a href="projects/bachelor-thesis" class="expand">
             <img src="assets/img/eleCubeComparison.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin: 10px;">3D Painting Approximation</p>
+                <p style="margin:10px;">3D Painting Approximation</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/c++.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/qt.png">
+                </div>
             </div>
         </a>
     </div>

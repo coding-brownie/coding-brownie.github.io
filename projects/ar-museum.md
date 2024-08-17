@@ -7,6 +7,33 @@ permalink: 'projects/ar-museum'
 ### ETH, Game Technology Center (2019-2021)
 **Technology Stack:** *Unity, C#, Vuforia, OpenCV, Vue.js, Javascript, MongoDB, GridFS, Google BigData*
 
+<div class="project-page-icon-bar">
+  <div class="icon-container float-left">
+    <img src="../assets/img/unity.png" alt="Unity">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/csharp.png" alt="C#">
+  </div>
+  <div class="icon-container float-left" style="width:48px;">
+    <img src="../assets/img/vuforia.png" alt="Vuforia">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/opencv.png" alt="OpenCV">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/javascript.png" alt="Javascript">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/vuejs.png" alt="VueJS">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/nodejs.png" alt="NodeJS">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/mongodb.png" alt="MongoDB">
+  </div>
+</div>
+
 <div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
   <embed
     src="https://www.youtube.com/embed/sa1C9v-zqLg?autohide=1&autoplay=0"
@@ -19,7 +46,7 @@ permalink: 'projects/ar-museum'
   >
 </div>
 <p style="margin-top:0;">
-<i style="font-size:0.8em;">Trailer of the exhibtion in Vienna of the Princely Collections (@GTC, 2021).</i>
+  <i style="font-size:0.8em;">Trailer of the exhibtion in Vienna of the Princely Collections (@GTC, 2021).</i>
 </p>
 
 How can museum visits be enhanced with modern technology - especially AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based content management system (CMS). Said content is then presented to the museum visitors through an app running on their personal devices. 
@@ -60,7 +87,7 @@ I supervised two Bachelor theses in this project. Both included existing neural 
   >
 </div>
 <p style="margin-top:0;">
-    <i style="font-size:0.8em;">Trailer of the "Parallelen" exhibition of the ETH Graphische Sammlung in Zurich (@GTC, 2020).</i>
+  <i style="font-size:0.8em;">Trailer of the "Parallelen" exhibition of the ETH Graphische Sammlung in Zurich (@GTC, 2020).</i>
 </p>
 
 

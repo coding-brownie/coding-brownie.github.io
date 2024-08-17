@@ -1,71 +1,10 @@
-.projects-grid {
-    display: grid; 
-    width: 100%; 
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
-    grid-auto-rows: 280px;
-}
-
-.project-tile {
-    width: 90%; 
-    height: 250px; 
-    position: relative; 
-    box-shadow: 5px 5px 8px grey;
-    transition-duration: 0.3s;
-}
-
-.project-tile:hover {
-    transform: scale(1.08);
-}
-
-.project-tile img {
-    filter: grayscale(1);
-}
-
-.project-tile:hover img {
-    filter: grayscale(0);
-}
-
-.project-tile-banner {
-    position:absolute; 
-    bottom:0px; 
-    color:#eeeeee; 
-    font-weight:bold; 
-    /*background-color:#00000088; */
-    height:50px; 
-    width:100%; 
-    display:flex; 
-    align-items:center;
-    background-image: linear-gradient(120deg, #190b1cbb, #5e0250bb);
-}
-
-.project-tile-banner p {
-    margin: 10px;
-}
-
-.expand {
-    width: 100%;
-    height: 100%;
-}
-
-img.expand {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-video {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-}
-
+/** Overrides of original css style file **/
 html {
     background-color: #ffffff;
 }
 
 .main-content {
     background-color: #ffffff;
-    /*box-shadow: 0px 0px 20px grey;*/
 }
 
 .main-content h1 {
@@ -82,4 +21,178 @@ html {
 
 .main-content h4 {
     color: #190b1c;
+}
+
+.page-footer {
+    height: 80px;
+    padding-top: 10px;
+    background-color: #190b1c;
+    background-image: linear-gradient(120deg, #190b1c, #5e0250);
+    font-size: 0.8em;
+}
+
+.page-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.page-footer a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+
+/** Icon Grid **/
+
+/** Grid of icons inside the profile-picture banner **/
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+    grid-auto-rows: 48px;
+}
+
+/** Container for any icon in the profile-picture banner **/
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Img representing an icon **/
+.icon-container img {
+    width: 40px;
+}
+
+
+/** Project Grid **/
+
+/** Grid container element, displaying the projects **/
+.projects-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 280px;
+}
+
+/** An element within the projects-grid **/
+.project-tile {
+    width: 90%;
+    height: 250px;
+    position: relative;
+    box-shadow: 5px 5px 8px grey;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+/** Make project-tile bigger when hovering over it **/
+.project-tile:hover {
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+}
+
+/** Project-tile images are black/white by default **/
+.project-tile img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+/** Make project-tile images colored when hovering over them **/
+.project-tile:hover img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+/** Container for the icons on a project-tile **/
+.project-icon-bar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80%;
+    margin: 5px;
+}
+
+/** Container for one icon in the project-icon-bar **/
+.project-icon-bar .icon-container {
+    width: 38px;
+    padding: 4px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Drop shadow for the icons in the project-icon-bar **/
+.project-icon-bar .icon-container img {
+    -webkit-filter: drop-shadow(0px 0px 4px white) grayscale(1);
+    filter: drop-shadow(0px 0px 4px white) grayscale(1);
+}
+
+/** Make icons colored when hovering over the project-tile **/
+.project-tile:hover .icon-container img {
+    -webkit-filter: drop-shadow(0px 0px 4px white) grayscale(0);
+    filter: drop-shadow(0px 0px 4px white) grayscale(0);
+}
+
+/** Title banner within a project-tile (at the bottom) **/
+.project-tile-banner {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(120deg, #190b1cbb, #5e0250bb);
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+
+/** Project page styles **/
+
+/** Container for the icons on a project page **/
+.project-page-icon-bar {
+    width: 100%;
+    height: 48px;
+    margin: 5px;
+}
+
+/** Container for one icon in the project-icon-bar **/
+.project-page-icon-bar .icon-container {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** General helpers **/
+
+/** Lets element expand to the whole size of the containing element **/
+.expand {
+    width: 100%;
+    height: 100%;
+}
+
+/** Let's image fill the entire size of the containing element without changing the aspect ratio. Img might be cropped **/
+img.expand {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/** Make videos appear centered on the page **/
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }

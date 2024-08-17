@@ -6,5 +6,13 @@ permalink: 'projects/master-thesis'
 
 ### Disney Research, Zurich (2017)
 **Technology Stack:** *Unity3D, C#*
+<div class="project-page-icon-bar">
+  <div class="icon-container float-left">
+    <img src="../assets/img/unity.png" alt="Unity">
+  </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/csharp.png" alt="C#">
+  </div>
+</div>
 
-As a follow-up to my Master thesis, we extended the interactive storytelling framework to support real-world locations. Life-size 3D stages including actors were anchored on AR image targets and visualized in AR. The developed prototype was intended for a field-test in Bristol UK. Due to its rich history in naval discovery and pirates, the story and assets revolved around pirates. 
+For my master's thesis, I extended on an existing story pre-viz framework called CANVAS with the goal of making the generated stories interactive and measuring the user's engagement to make recommendations about what the user should pay attention to within the story.
