@@ -68,7 +68,7 @@ A selection of projects that I have been involved in:
                     <img src="assets/img/csharp.png">
                 </div>
                 <div class="icon-container">
-                    <img src="assets/img/openai.png">
+                    <img src="assets/img/openAI.png">
                 </div>
             </div>
         </a>
