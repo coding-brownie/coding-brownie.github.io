@@ -15,4 +15,14 @@ permalink: 'projects/master-thesis'
   </div>
 </div>
 
-For my master's thesis, I extended on an existing story pre-viz framework called CANVAS with the goal of making the generated stories interactive and measuring the user's engagement to make recommendations about what the user should pay attention to within the story.
+<video src="../assets/videos/InteractiveNarratives.mp4" controls></video> 
+<p style="margin-top:0;">
+    <i style="font-size:0.8em;">Example of interactive stories in VR and AR.</i>
+</p>
+<p>
+For my master's thesis, I extended an existing story pre-viz framework called CANVAS with the ability to generate interactive stories and measuring the user's engagement to make recommendations regarding which future branch in the story should be taken and nudging the user to take the required actions.
+</p>
+<img src="../assets/img/drz-authoring.jpg" width="100%" class="center-horizontal">  
+<p style="margin-top:0;">
+    <i style="font-size:0.8em;">Authoring UI to create stories.</i>
+</p>

@@ -122,7 +122,7 @@ A selection of projects that I have been involved in:
     </div>
     <div class="project-tile">
         <a href="projects/master-thesis" class="expand">
-            <img src="assets/img/drz-spookyBedroom.png" class="expand">
+            <img src="assets/img/drz-spookyBedroom.jpg" class="expand">
             <div class="project-tile-banner">
                 <p style="margin:10px;">Interactive Storytelling in AR/VR</p>
             </div>

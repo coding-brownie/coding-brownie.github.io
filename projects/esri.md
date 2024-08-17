@@ -29,7 +29,7 @@ The UI for the presentation mode is handled by React, which reflects any changes
 To generate such dynamic presentations, the user can set a keyframe for the current camera location of ArcGIS. Additionally, for each keyframe, the user can select the time-of-day, which ArcGIS layers should be active and if there should be custom HTML elements visible at certain locations. A chain of such keyframes is then interpolated between during presentation mode to get smooth camera movement as well as smooth blending between the 3D and HTML elements that should be active. Furthermore, keyframes can have more than one follow-up frame, allowing for interactive branching in the visual "story". In such cases the user can select which branch of the story they want to explore next. If not, the author can decide for a default follow-up branch to be triggered automatically after a timeout.
 Presentations are saved in JSON format.
 
-<img src="../assets/img/esri_overview.png" width="100%" style="text-align:center;">  
+<img src="../assets/img/esri_overview.png" width="100%" class="center-horizontal">  
 <p style="margin-top:0;">
     <i style="font-size:0.8em;">Overview of the implemented application.</i>
 </p>

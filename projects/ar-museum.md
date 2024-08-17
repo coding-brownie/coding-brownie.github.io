@@ -53,7 +53,7 @@ How can museum visits be enhanced with modern technology - especially AR? That w
 The museum visitor facing app was developed with Unity, C# and Vuforia as AR image tracker. The curator facing website is implemented with Javascript, Vue.js and a MongoDB database.   
 This AR museum platform is now part of an ETH Spinoff and marketed under the name [Viseum](https://aperionxr.com).
 
-<img src="../assets/img/bta-cms_en.jpg" width="80%" style="display: block; margin: 0 auto;">  
+<img src="../assets/img/bta-cms_en.jpg" width="80%" class="center-horizontal">  
 <p style="margin-top:0;">
     <i style="font-size:0.8em;">Overview of the AR Museum platform (@Aperion XR, 2024).</i>
 </p>
