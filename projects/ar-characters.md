@@ -5,7 +5,7 @@ permalink: 'projects/ar-characters'
 ---
 
 ### ETH, Game Technology Center (2021-2024)
-**Technology Stack:** *Unity, C#, ARFoundation, Python, GPT-3.5, Google TTS, iOS native STT*
+**Technology Stack:** *Unity, C#, ARFoundation, Python, Google TTS, GPT-3.5*
 
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
@@ -21,17 +21,18 @@ permalink: 'projects/ar-characters'
     <img src="../assets/img/python.png" alt="Python">
   </div>
   <div class="icon-container float-left">
-    <img src="../assets/img/openai.png" alt="OpenAI">
-  </div>
-  <div class="icon-container float-left">
     <img src="../assets/img/googleTTS.png" alt="Google TTS">
   </div>
+  <div class="icon-container float-left">
+    <img src="../assets/img/openai.png" alt="OpenAI">
+  </div>
+  
 </div>
 
 <p>
 The aim of this research project was to develop authoring tools for AR (Augmented Reality) experiences that feature intelligent virtual characters. Specifically, the characters should be aware of their surroundings and be able to interact with it and the user. To this end, we developed an authorable <b>storytelling engine</b>, a <b>scene understanding</b> module, <b>3D animation controllers</b> and modules related to various existing <b>AI (artificial intelligence) technologies</b> on top of the Unity game engine.
 </p>
-
+<img src="../assets/img/kiat-cover.jpg" width="100%" class="center-horizontal">
 <p>
 The project was a collaboration between Disney Research|Studios and the Sejong University in Seoul. I have been the lead architect on the Swiss side and contributed to the code, coordinated the work of my colleagues and students who did their theses on this project. 
 </b>
@@ -40,7 +41,7 @@ The project was a collaboration between Disney Research|Studios and the Sejong U
 <h2>Prototypes</h2>
 We developed 3 major prototypes over the course of this project. 
 
-<p>The first one was a <b>virtual museum guide</b>, who could guide the user through a physical art museum and tell stories about the painting, while pointing out the various details by hand.</p>
+<p>The first prototype was a <b>virtual museum guide</b>, who could guide the user through a physical art museum and tell stories about the paintings, while pointing out the various details by hand.</p>
 
 <div style="width:100%; aspect-ratio:16/9; float:none; clear:both; margin:2px auto;">
   <embed
@@ -57,7 +58,7 @@ We developed 3 major prototypes over the course of this project.
   <i>Trailer of the first prototype (@GTC, 2023).</i>
 </p>
 
-<p>The goal of the second one was to leverage our custom scene understanding module and animation system to interact with the detected objects. Due to the upcoming of Large Language Models (LLMs) at the time, we also integrated a proper chatbot functionality for the character. The result was a <b>tech-demo</b>, in which a child from a different dimension comes to visit your home and is eager to explore the different treasures of your home - meaning anything that can be detected by the scene understanding module.</p>
+<p>The goal of the second prototype was to leverage our custom scene understanding module and animation system to interact with the detected objects. Due to the upcoming of Large Language Models (LLMs) at the time, we also integrated a proper chatbot functionality for the character. The result was a <b>tech-demo</b>, in which a child from a different dimension comes to visit your home and is eager to explore the different treasures of your home - meaning anything that can be detected by the scene understanding module.</p>
 
 <div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
   <embed
@@ -87,17 +88,17 @@ We developed 3 major prototypes over the course of this project.
   To enable the characters to get an understanding of their physical environment, we use existing technologies, such as ARFoundation  and custom neural network pipelines based on <a href="https://github.com/facebookresearch/detr">End-to-End Object Detection with Transformers (DE:TR)</a>, <a href="https://github.com/JonasSchult/Mask3D">Mask3D</a> and <a href="https://github.com/Gorilla-Lab-SCUT/AffordanceNet">3D AffordanceNet</a>. The first step is to generate a <b>3D mesh representation of the environment</b> at runtime. For this we use the meshing ability of ARFoundation (which internally uses ARKit). 
 </p>
 
-<img src="../assets/img/kiat-roomMesh.jpg" width="73%" class="float-left">  
-<video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:9/16; width:22%;" controls></video>
+<img src="../assets/img/kiat-roomMesh.jpg" width="66%" class="float-left">  
+<video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:27%;" controls></video>
 <div style="float:none;"></div>
 <p class="caption" style="margin-top:5px;">
     <i>3D mesh generation and representation in our AR app.</i>
 </p>
 <p>
-  On the generated mesh, we can continuously build a <b>NavMesh</b> for the character to <b>walk and navigate</b> on. Furthermore we can use the mesh to correctly <b>occlude any virtual object</b> when it is behind some physical object. 
+  On the generated mesh, we can continuously build a <b>NavMesh</b> for the character to <b>walk and navigate</b> on. Furthermore we can use the mesh to correctly <b>occlude any virtual object</b> when it is behind some physical object. For the museum guide prototype, we further needed an abstract representation of the museum, such that the character could guide the user to the next painting, even if that part of the museum has not yet been scanned by the user. The first approach was with an invisible 3D graph that is anchored on the AR images, the second one by serializing the NavMesh and loading that one again in the next AR session.
 </p>
 <p>
-  To segment objects, we have two different pipelines: DE:TR with 3D Lifting and Mask3D.
+  To detect physical object instances, we have two different pipelines: DE:TR with 3D Lifting and Mask3D.
 </p>
 
 <p>

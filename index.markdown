@@ -68,6 +68,9 @@ A selection of projects that I have been involved in:
                     <img src="assets/img/csharp.png">
                 </div>
                 <div class="icon-container">
+                    <img src="assets/img/python.png">
+                </div>
+                <div class="icon-container">
                     <img src="assets/img/openai.png">
                 </div>
             </div>
