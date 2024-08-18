@@ -79,6 +79,8 @@ html {
     height: 250px;
     position: relative;
     box-shadow: 5px 5px 8px grey;
+    border-radius: 10px;
+    overflow: hidden;
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
 }
@@ -197,12 +199,19 @@ video {
     float: right;
 }
 
+/** Centers the element horizontally **/
 .center-horizontal {
     display: block; 
     margin: 0 auto;
 }
 
+/** Style for image and video captions **/
 .caption {
     font-size: 0.8em;
     line-height: 1.3;
+}
+
+/** Style for the intro text of projects. Uses h2 **/
+.main-content h3.intro-text {
+    margin-top: 1rem;
 }

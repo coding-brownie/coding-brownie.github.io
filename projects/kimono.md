@@ -4,7 +4,8 @@ title: 'Mesh Approximation of 3D Paintings (Bachelor Thesis)'
 permalink: 'projects/bachelor-thesis'
 ---
 
-### ETH, Disney Research Zurich
+<h2>ETH, Disney Research Zurich</h2>
+
 **Technology Stack:** *C++, Qt*
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
@@ -19,8 +20,11 @@ permalink: 'projects/bachelor-thesis'
 <p style="margin-top:0;">
     <i style="font-size:0.8em;">Comparison between the original 3D painting (top) and the 3D mesh approximation (bottom).</i>
 </p>
+<h3 class="intro-text">
+  My Bachelor thesis was about creating approximations of 3D paintings created by an in-house tool called <a href="https://zurich.disneyresearch.com/OverCoat/">OverCoat</a>. The reason behind this thesis topic was to be able to render such 3D paintings in real-time and to be able to rig and animate them for video games. 
+</h3>
 
-My Bachelor thesis was about creating approximations of 3D paintings created by an in-house tool called [OverCoat](https://zurich.disneyresearch.com/OverCoat/). The reason behind this thesis topic was to be able to render such 3D paintings in real-time and to be able to rig and animate them for video games. To this end, I developed a tool with Qt and C++, that can take the 3D shape that was used as the base of the 3D painting and create a layered mesh (like an onion) of it, where each layer is the same mesh, but scaled at a certain factor along the vertex normals. The goal is to calculate the texture for each such layer in such a way that the resulting textured layer mesh looks as close as possible as the 3D painting from any direction. 
+To this end, I developed a tool with Qt and C++, that can take the 3D shape that was used as the base of the 3D painting and create a layered mesh (like an onion) of it, where each layer is the same mesh, but scaled at a certain factor along the vertex normals. The goal is to calculate the texture for each such layer in such a way that the resulting textured layer mesh looks as close as possible as the 3D painting from any direction. 
 This is achieved by sampling the 3D painting from several directions. 
 
 <img src="../assets/img/kimonoSampling.jpg" width="60%" style="display: block; margin: 0 auto;">  

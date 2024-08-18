@@ -4,7 +4,8 @@ title: 'Scene-aware AR Characters'
 permalink: 'projects/ar-characters'
 ---
 
-### ETH, Game Technology Center (2021-2024)
+<h2>ETH, Game Technology Center (2021-2024)</h2>
+
 **Technology Stack:** *Unity, C#, ARFoundation, Python, Google TTS, GPT-3.5*
 
 <div class="project-page-icon-bar">
@@ -26,17 +27,18 @@ permalink: 'projects/ar-characters'
   <div class="icon-container float-left">
     <img src="../assets/img/openai.png" alt="OpenAI">
   </div>
-  
 </div>
 
+<h3 class="intro-text">
+  The aim of this research project was to develop authoring tools for AR (Augmented Reality) experiences that feature intelligent virtual characters that can live in the same world as us. Specifically, the characters should be aware of their surroundings and be able to interact with it and the user in an intelligent way. 
+</h3>
 <p>
-The aim of this research project was to develop authoring tools for AR (Augmented Reality) experiences that feature intelligent virtual characters. Specifically, the characters should be aware of their surroundings and be able to interact with it and the user. To this end, we developed an authorable <b>storytelling engine</b>, a <b>scene understanding</b> module, <b>3D animation controllers</b> and modules related to various existing <b>AI (artificial intelligence) technologies</b> on top of the Unity game engine.
+  To achieve these goals, we developed an authorable <b>storytelling engine</b>, a <b>scene understanding</b> module, <b>3D animation controllers</b> and modules related to various existing <b>AI (artificial intelligence) technologies</b> on top of the Unity game engine.
 </p>
 <img src="../assets/img/kiat-cover.jpg" width="100%" class="center-horizontal">
 <p>
-The project was a collaboration between Disney Research|Studios and the Sejong University in Seoul. I have been the lead architect on the Swiss side and contributed to the code, coordinated the work of my colleagues and students who did their theses on this project. 
-</b>
-
+  The project was a collaboration between <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a> and the Graphics and Virtual Reality Lab at the <a href="https://en.sejong.ac.kr/eng/index.do">Sejong University</a> in Seoul. I have been the lead architect on the Swiss side and contributed to the code, coordinated the work of my colleagues and students who did their theses within the scope of this project. 
+</p>
 
 <h2>Prototypes</h2>
 We developed 3 major prototypes over the course of this project. 
@@ -88,12 +90,15 @@ We developed 3 major prototypes over the course of this project.
   To enable the characters to get an understanding of their physical environment, we use existing technologies, such as ARFoundation  and custom neural network pipelines based on <a href="https://github.com/facebookresearch/detr">End-to-End Object Detection with Transformers (DE:TR)</a>, <a href="https://github.com/JonasSchult/Mask3D">Mask3D</a> and <a href="https://github.com/Gorilla-Lab-SCUT/AffordanceNet">3D AffordanceNet</a>. The first step is to generate a <b>3D mesh representation of the environment</b> at runtime. For this we use the meshing ability of ARFoundation (which internally uses ARKit). 
 </p>
 
-<img src="../assets/img/kiat-roomMesh.jpg" width="66%" class="float-left">  
-<video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:27%;" controls></video>
-<div style="float:none;"></div>
-<p class="caption" style="margin-top:5px;">
-    <i>3D mesh generation and representation in our AR app.</i>
-</p>
+<div>
+  <img src="../assets/img/kiat-roomMesh.jpg" width="66%" class="float-left">  
+  <video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:27%;" controls></video>
+  <div style="float:none;"></div>
+  <p class="caption" style="margin-top:5px;">
+      <i>3D mesh generation and representation in our AR app.</i>
+  </p>
+</div>
+
 <p>
   On the generated mesh, we can continuously build a <b>NavMesh</b> for the character to <b>walk and navigate</b> on. Furthermore we can use the mesh to correctly <b>occlude any virtual object</b> when it is behind some physical object. For the museum guide prototype, we further needed an abstract representation of the museum, such that the character could guide the user to the next painting, even if that part of the museum has not yet been scanned by the user. The first approach was with an invisible 3D graph that is anchored on the AR images, the second one by serializing the NavMesh and loading that one again in the next AR session.
 </p>
@@ -109,36 +114,42 @@ We developed 3 major prototypes over the course of this project.
 <p>
   <b>Mask3D with 3D Affordance Prediction:</b> One problem of the DE:TR with 3D Lifting approach is that we only get a partial point-cloud of the object. However, in order to predict the 3D locations of affordances, which would allow our character to perform realistic looking animations with that object, we require a full point-cloud representation of that object. Thus, we use Mask3D. As input it requires a colored point-cloud of the environment. As ARFoundation did not support colored or textured environment-meshes at the time this project was made, we implemented our own color prediction based on the RGB-D images. 
 </p>
-<img src="../assets/img/kiat-roomColorCloud.jpg" width="80%" class="center-horizontal">  
-<p class="caption" style="margin-top:5px;">
-    <i>Color cloud representation of a room as generated by our AR app.</i>
-</p>
+
+<div>
+  <img src="../assets/img/kiat-roomColorCloud.jpg" width="100%" class="center-horizontal">  
+  <p class="caption" style="margin-top:5px;">
+      <i>Color cloud representation of a room as generated by our AR app.</i>
+  </p>
+</div>
+
 <p>
-  We extract the mesh around the AR user at runtime, including the vertex colors, and send it via REST request to our custom Mask3D server. Since the environment mesh generated by ARKit is not particularily dense in flat areas, we sample several points per triangle to get a more dense representation to feed into Mask3D. The segmented object point-clouds are further filtered and then handed to 3D AffordanceNet to predict interaction points for a pre-defined set of affordances. The point-clouds of the detected objects and the best interaction points are sent back to the AR application, where they are again merged with existing object instances or instantiated as a completely new instance.<br>
+  We extract the mesh around the AR user at runtime, including the vertex colors, and send it via REST request to our custom Mask3D server. Since the environment mesh generated by ARKit is not particularily dense in flat areas, we sample several points per triangle to get a more dense representation to feed into Mask3D. The segmented object point-clouds are further filtered and then handed to 3D AffordanceNet to predict interaction points for a pre-defined set of affordances. The point-clouds of the detected objects and the best interaction points are sent back to the AR application, where they are again merged with existing object instances or instantiated as a completely new instance.<br/>
   The runtime of this pipeline is roughly 2s and, due to the low resolution of the environment mesh, only works for larger objects, such as chairs.
 </p>
-<img src="../assets/img/kiat-mask3D.jpg" width="60%" class="float-left" style="margin-right:3%;">  
-<img src="../assets/img/kiat-affordance.jpg" width="37%" class="float-left">  
-<div style="float:none;"></div>
 
-<p class="caption" style="margin-top:10px;">
-    <i>Object segmentation from a colored point-cloud with Mask3D and affordance predictions (in red) including orientation for a SitDown affordance.</i>
-</p>
-
+<div>
+  <img src="../assets/img/kiat-mask3D.jpg" width="60%" class="float-left" style="margin-right:3%;">  
+  <img src="../assets/img/kiat-affordance.jpg" width="37%" class="float-left">  
+  <div style="float:none;"></div>
+  <p class="caption" style="margin-top:10px;">
+      <i>Object segmentation from a colored point-cloud with Mask3D and affordance predictions (in red) including orientation for a SitDown affordance.</i>
+  </p>
+</div>
 
 <h3>Storytelling Engine</h3>
 <p>
-  Every interactable object in our AR app is modeled as a <b>StoryObject</b>, which can have a set of <b>affordances and capabilities</b>. A chair for example offers the affordances <var>SitDown</var> and <var>GetUp</var>. It does not have any capabilities as it is passive. A virtual character on the other hand might have the affordances <var>TalkTo</var> and <var>PointAt</var>. But since it is an active object it can also have capabilities, such as <var>SitDown</var>, <var>GetUp</var> and <var>TalkTo</var>, whcih allows it to use the affordances of other StoryObjects.<br/>
-  Stories in this application are authored as a chain of affordance/capability pairs, meaning each active StoryObject has a sequence of capabilities to execute on other StoryObjects. Each affordance/capability pair is subject to <b>dependencies</b>, which - once fulfilled - will trigger the related interaction. Dependencies are fulfilled by either the start or end of another pair, by a timer or by user interactions or a combination thereof.
+  Every interactable object in our AR app is modeled as a <b>StoryObject</b>, which can have a set of <b>affordances and capabilities</b>. A chair for example offers the affordances <var>SitDown</var> and <var>GetUp</var>. It does not have any capabilities as it is passive. A virtual character on the other hand might have the affordances <var>TalkTo</var> and <var>PointAt</var>. But since it is an active object it can also have capabilities, such as <var>SitDown</var>, <var>GetUp</var> and <var>TalkTo</var>, which allows it to use the affordances of other StoryObjects.<br/>
+  Stories in this application are authored as a chain of affordance/capability pairs, meaning each active StoryObject can have a sequence of capabilities to execute on other StoryObjects. We call this sequence ActorScript. Each affordance/capability pair in an ActorScript is subject to <b>dependencies</b>, which - once fulfilled - will trigger the related interaction. Dependencies are fulfilled by either the start or end of another pair, by a timer or by user interactions or a combination thereof.<br/>
+  A higher level ExperienceManager distributes the ActorScripts based on the current state of the experience.
 </p>
 <p>
-  During student theses we did some further experimentations with Monte Carlo Tree Search-based narrative planners and dialog or affordance generation with LLMs which were connected with the existing storytelling engine.
+  During student theses we also did some experimentations with Monte Carlo Tree Search-based narrative planners and dialog- or affordance-generation with LLMs. Both approaches were successfully connected with the existing storytelling engine.
 </p>
 
 <h3>3D Animation System</h3>
 <p>
-  The main goal of the animation system is to allow interactions with physical objects of which we do not know the exact shape or size at compile time of the application. Thus, we use Inverse Kinematics (IK) to modify artist-crafted animations at runtime in such a way that a specific point in 3D is hit at a specific time of the animation. This is based on <a src="https://studios.disneyresearch.com/2019/10/27/parameterized-animated-activities/" target="_blank" rel="noopener noreferrer">previous work</a> by Disney Research|Studios. Further work has been done to better blend these kinds of animations among each other, as well as with the Unity Mecanim animation system.<br/>
-  When interacting with a virtual character, it is often desirable to keep that character in the center of the user's view. For the character to reposition themselves upon small movements of the user's head, default locomotion is neither efficient nor realistic looking. Thus, in a student thesis, we developed a <a src="https://dl.acm.org/doi/10.1145/3623264.3624450" target="_blank" rel="noopener noreferrer">data-based motion adaptation approach</a> that allows the character to perform small steps to the side, back or front.<br/>
+  The main goal of the animation system is to allow interactions with physical objects of which we do not know the exact shape or size at compile time of the application. Thus, we use Inverse Kinematics (IK) to modify artist-crafted animations at runtime in such a way that a specific point in 3D is hit at a specific time of the animation. This is based on <a href="https://studios.disneyresearch.com/2019/10/27/parameterized-animated-activities/" target="_blank" rel="noopener noreferrer">previous work</a> by Disney Research|Studios. Further work has been done to better blend these kinds of animations among each other, as well as with the Unity Mecanim animation system.<br/>
+  When interacting with a virtual character, it is often desirable to keep that character in the center of the user's view. For the character to reposition themselves upon small movements of the user's head, default locomotion is neither efficient nor realistic looking. Thus, in a student thesis, we developed a <a href="https://dl.acm.org/doi/10.1145/3623264.3624450" target="_blank" rel="noopener noreferrer">data-based motion adaptation approach</a> that allows the character to perform small steps to the side, back or front.<br/>
   Furthermore, we use an existing lip-sync solution to allow our characters to have semi-realistic lip sync while talking. Facial blendshapes can also be triggered through the storytelling engine or a mood analysis powered by GPT.
 </p>
 

@@ -4,7 +4,8 @@ title: 'AR Museum'
 permalink: 'projects/ar-museum'
 ---
 
-### ETH, Game Technology Center (2019-2021)
+<h2>ETH, Game Technology Center (2019-2021)</h2>
+
 **Technology Stack:** *Unity, C#, Vuforia, OpenCV, Vue.js, Javascript, MongoDB, GridFS, Google BigData*
 
 <div class="project-page-icon-bar">
@@ -49,9 +50,11 @@ permalink: 'projects/ar-museum'
   <i>Trailer of the exhibtion in Vienna of the Princely Collections (@GTC, 2021).</i>
 </p>
 
-How can museum visits be enhanced with modern technology - especially AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based content management system (CMS). Said content is then presented to the museum visitors through an app running on their personal devices. 
-The museum visitor facing app was developed with Unity, C# and Vuforia as AR image tracker. The curator facing website is implemented with Javascript, Vue.js and a MongoDB database.   
-This AR museum platform is now part of an ETH Spinoff and marketed under the name [Viseum](https://aperionxr.com).
+<h3 class="intro-text">
+    How can museum visits be enhanced with AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based Content Management System. The authored content is then presented to the museum visitors through an AR app running on their personal devices. This AR museum platform is now part of an ETH Spinoff and marketed under the name <a href="https://aperionxr.com">Viseum</a>.
+</h3>
+
+The museum visitor facing app was developed with Unity, C# and Vuforia as AR image tracker. The curator facing web-based Content Management System (CMS) is implemented with Javascript, Vue.js and a MongoDB database.   
 
 <img src="../assets/img/bta-cms_en.jpg" width="80%" class="center-horizontal">  
 <p class="caption" style="margin-top:0;">
@@ -60,7 +63,7 @@ This AR museum platform is now part of an ETH Spinoff and marketed under the nam
 
 
 ### My Contributions
-I was mainly involved in the creation of the UI and AR functionalities on the Unity app, but also contributed to the frontent (Vue.js) and backend (Javascript) of the CMS website.  
+I was mainly involved in the creation of the UI and AR functionalities on the Unity app, but also contributed to the frontent (Vue.js) and backend (Javascript, MongoDB) of the CMS website.  
 
 #### AR App
 I created several **AR functionalities**, such as displaying videos on top of the art-pieces, or a slider interaction, allowing to see two different versions of the same painting. One additional notable AR functionality I implemented is a *face-swap* feature (OpenCV), allowing museum visitors to place their faces instead of pre-defined faces on some of the paintings in the museum and seeing the result in AR. Challenges were mainly the face-detection, re-coloring of the taken photograph to match the style of the painting and a simple UI to present the feature to the museum visitors. This was accomplished with OpenCV and overlaying the physical painting with an AR-based UI.  
