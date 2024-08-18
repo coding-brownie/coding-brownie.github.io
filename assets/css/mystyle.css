@@ -201,3 +201,8 @@ video {
     display: block; 
     margin: 0 auto;
 }
+
+.caption {
+    font-size: 0.8em;
+    line-height: 1.3;
+}

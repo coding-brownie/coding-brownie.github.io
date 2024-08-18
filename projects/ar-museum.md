@@ -45,8 +45,8 @@ permalink: 'projects/ar-museum'
     title="Keyboard Cat"
   >
 </div>
-<p style="margin-top:0;">
-  <i style="font-size:0.8em;">Trailer of the exhibtion in Vienna of the Princely Collections (@GTC, 2021).</i>
+<p class="caption" style="margin-top:0;">
+  <i>Trailer of the exhibtion in Vienna of the Princely Collections (@GTC, 2021).</i>
 </p>
 
 How can museum visits be enhanced with modern technology - especially AR? That was the main question we were tasked to solve. The result is a platform that allows museum curators to author their own AR content through a web-based content management system (CMS). Said content is then presented to the museum visitors through an app running on their personal devices. 
@@ -54,8 +54,8 @@ The museum visitor facing app was developed with Unity, C# and Vuforia as AR ima
 This AR museum platform is now part of an ETH Spinoff and marketed under the name [Viseum](https://aperionxr.com).
 
 <img src="../assets/img/bta-cms_en.jpg" width="80%" class="center-horizontal">  
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Overview of the AR Museum platform (@Aperion XR, 2024).</i>
+<p class="caption" style="margin-top:0;">
+    <i>Overview of the AR Museum platform (@Aperion XR, 2024).</i>
 </p>
 
 
@@ -86,8 +86,8 @@ I supervised two Bachelor theses in this project. Both included existing neural 
     title="Keyboard Cat"
   >
 </div>
-<p style="margin-top:0;">
-  <i style="font-size:0.8em;">Trailer of the "Parallelen" exhibition of the ETH Graphische Sammlung in Zurich (@GTC, 2020).</i>
+<p class="caption" style="margin-top:0;">
+  <i>Trailer of the "Parallelen" exhibition of the ETH Graphische Sammlung in Zurich (@GTC, 2020).</i>
 </p>
 
 

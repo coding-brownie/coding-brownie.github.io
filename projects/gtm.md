@@ -30,8 +30,8 @@ permalink: 'projects/gtm'
 <img style="float:left; width:30%; margin-left:5%;" src="../assets/img/gtm-garden.jpg" alt="Garden"/>
 <img style="float:left; width:30%; margin-left:5%;" src="../assets/img/gtm-treeUI.jpg" alt="Garden UI"/>
 <div style="float:none;">
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Gnome shops and garden.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Gnome shops and garden.</i>
 </p>
 
 <p>
@@ -44,15 +44,15 @@ permalink: 'projects/gtm'
     After a flexible timelimit the game is automatically terminated and the team with the most seeds in their inventory is declared the winner.  
 </p>
 <img class="center-horizontal" style="width:80%;" src="../assets/img/gtm-playtesting.jpg" alt="Playtesting"/>
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Outdoor playtesting, with people looking at a garden.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Outdoor playtesting, with people looking at a garden.</i>
 </p>
 <p>
     Some technical challenges worth mentioning are: 1) re-connection into the same game and as the same player in case that a device crashes, 2) downloading asset bundles and instantiating the contained 3D model at runtime, 3) concurrent synchronization of the game state through Firestore and 4) easy-to-understand UIs for the various interaction modalities in the game.
 </p>
 <img class="center-horizontal" style="width:80%;" src="../assets/img/gtm-uis.jpg" alt="UIs"/>
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">The various UI screens during gameplay.</i>
+<p class="caption" style="margin-top:0;">
+    <i>The various UI screens during gameplay.</i>
 </p>
 
 <h3>Links</h3>  

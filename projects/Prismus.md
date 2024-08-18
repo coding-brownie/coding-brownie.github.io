@@ -26,8 +26,8 @@ permalink: 'projects/prismus'
     title="Keyboard Cat"
   >
 </div>
-<p style="margin-top:0;">
-<i style="font-size:0.8em;">Prismus trailer.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Prismus trailer.</i>
 </p>
 
 In the Gamelab course of ETH Zurich, the students are tasked to create a game from the ground up over the course of a semester. The overarching theme of that year was Evolution. In a group of 3 people, we developed the game "Prismus" - a top-down game, where the player takes control of a small creature whose goal is to grow, evolve, adapt to the environment and survive for as long as possible. Our main inspiration for "Prismus" was the game <a href="https://thatgamecompany.com/flow/">"flOw"</a>. 

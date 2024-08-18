@@ -19,8 +19,8 @@ permalink: 'projects/esri'
 </div>
 
 <video src="../assets/videos/esri.mp4" controls></video> 
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Example presentation of the relocation of a USPS office in the Redlands.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Example presentation of the relocation of a USPS office in the Redlands.</i>
 </p>
 
 Bring interactive PowerPoint presentations to Esri's ArcGIS framework. That was essentially the task for my 6-month internship. Under the lead of my supervisor, I created a React/Redux based application to create and visualize dynamic presentations with the ArcGIS API. 
@@ -30,13 +30,13 @@ To generate such dynamic presentations, the user can set a keyframe for the curr
 Presentations are saved in JSON format.
 
 <img src="../assets/img/esri_overview.png" width="100%" class="center-horizontal">  
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Overview of the implemented application.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Overview of the implemented application.</i>
 </p>
 
 <video src="../assets/videos/esri-ui.mp4" controls></video> 
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Demonstration of the HTML elements.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Demonstration of the HTML elements.</i>
 </p>
 
 

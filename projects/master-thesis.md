@@ -16,13 +16,13 @@ permalink: 'projects/master-thesis'
 </div>
 
 <video src="../assets/videos/InteractiveNarratives.mp4" controls></video> 
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Example of interactive stories in VR and AR.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Example of interactive stories in VR and AR.</i>
 </p>
 <p>
 For my master's thesis, I extended an existing story pre-viz framework called CANVAS with the ability to generate interactive stories and measuring the user's engagement to make recommendations regarding which future branch in the story should be taken and nudging the user to take the required actions.
 </p>
 <img src="../assets/img/drz-authoring.jpg" width="100%" class="center-horizontal">  
-<p style="margin-top:0;">
-    <i style="font-size:0.8em;">Authoring UI to create stories.</i>
+<p class="caption" style="margin-top:0;">
+    <i>Authoring UI to create stories.</i>
 </p>
