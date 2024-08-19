@@ -13,9 +13,7 @@
     --primary-color-bright: #3a374f;*/
     /* yellow/green */
     --primary-color-dark: #cec190;
-    --primary-color-bright: #71b1ae;
-    --primary-color-dark: #367774;
-    --primary-color-bright: #cec190;
+    --primary-color-bright: #367774;
 }
 
 /** Overrides of original css style file **/
@@ -33,19 +31,24 @@ html {
 }
 
 .main-content h1 {
-    color: var(--primary-color-bright);
+    color: var(--primary-color-dark);
 }
 
 .main-content h2 {
-    color: var(--primary-color-bright);
+    color: var(--primary-color-dark);
 }
 
 .main-content h3 {
-    color: var(--primary-color-bright);
+    color: var(--primary-color-dark);
 }
 
 .main-content h4 {
+    color: var(--primary-color-dark);
+}
+
+a {
     color: var(--primary-color-bright);
+    font-weight: 600;
 }
 
 .page-footer {

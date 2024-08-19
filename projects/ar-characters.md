@@ -75,7 +75,7 @@ We developed 3 major prototypes over the course of this project.
       title="Keyboard Cat"
     >
   </div>
-  <video src="../assets/videos/kiat-prototype2.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:2.8/4; width:27%;" controls></video>
+  <video src="../assets/videos/kiat-prototype2.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:29%;" controls></video>
 </div>
 <p class="caption" style="margin-top:0;">
   <i>Trailer of the second prototype (@GTC, 2023).</i>

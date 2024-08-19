@@ -93,8 +93,6 @@ I supervised two Bachelor theses in this project. Both included existing neural 
   <i>Trailer of the "Parallelen" exhibition of the ETH Graphische Sammlung in Zurich (@GTC, 2020).</i>
 </p>
 
-
-
 ### Links
 - [Research Page (ETH)](https://gtc.inf.ethz.ch/research/augmented-and-virtual-reality-research/behind-the-art.html)
 - [Viseum (Aperion XR)](https://aperionxr.com/)

@@ -7,6 +7,7 @@ permalink: 'projects/prismus'
 <h2>ETH Zurich, Master Studies (2015)</h2>
 
 **Technology Stack:** *Unity3D, C#*
+
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
     <img src="../assets/img/unity.png" alt="Unity">
@@ -16,13 +17,12 @@ permalink: 'projects/prismus'
   </div>
 </div>
 
-<video src="../assets/videos/prismus.mp4" controls></video>
-<p class="caption" style="margin-top:0;">
-    <i>Prismus trailer.</i>
-</p>
 <h3 class="intro-text">
     In the Gamelab course of ETH Zurich, the students are tasked to create a game from the ground up over the course of a semester. The overarching theme of that year was Evolution. In a group of 3 people, I helped developing the game "Prismus" and learned a lot in the process.
 </h3>
+
+<video src="../assets/videos/prismus.mp4" style="width:100%;" controls></video>
+
 
 <h2>The Game</h2>
 "Prismus" is a top-down game, where the player takes control of a small creature whose goal is to grow, evolve, adapt to the environment and survive for as long as possible. Our main inspiration for "Prismus" was the game <a href="https://thatgamecompany.com/flow/">"flOw"</a>. 
