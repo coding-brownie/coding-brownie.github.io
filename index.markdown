@@ -5,7 +5,7 @@
 layout: default
 ---
 
-  <div style="position:relative; padding-top:0px; width:100%; height:284px; background-image:radial-gradient(ellipse at left bottom, #dddddd, #ffffff);">
+  <div style="position:relative; padding-top:0px; margin-top:0; width:100%; height:284px;">
     <img style="position:absolute; bottom:0px; width:min(300px, 60%); filter:grayscale(0.2)" src="./assets/img/manu2_crop.png" alt="Manuel">
     <div style="position:absolute; height:284px; bottom:0px; right:0px; width:40%; display:flex; align-items:center;">
         <div class="icon-grid" style="position:absolute; bottom:30px; right:20px; width:100%; ">
@@ -38,12 +38,13 @@ layout: default
             </div>
         </div>
     </div>
-    <div style="position:absolute; bottom:-2px; width:100%; height:2px; background-image:linear-gradient(120deg, #555555, #ffffff);"></div>
+
 </div>
 
  <div style="width:100%; margin-top:20px;">
     <p>
-    Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a href="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a href="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at Esri R&D and Disney Research|Studios, and completed my civil service duty helping in the software development team of two different Swiss hospitals. During my career I got the opportunity to work on the full stack of several 3D and AR applications, webistes and mobile applications.
+    Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a href="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a href="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at <a href="https://esri.com">"Esri R&D</a> and <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a>, and completed my civil service duty helping in the software development team of two different <b>Swiss hospitals</b>. <br>
+    During my career I got the opportunity to work on the <b>full stack</b> of several 3D and AR applications, webistes and mobile applications. I enjoy tackling complex problems, discuss the best solution with my team-members, and watch an idea become reality.
     </p>
 </div>
 

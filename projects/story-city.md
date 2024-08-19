@@ -4,7 +4,7 @@ title: 'City-wide Interactive AR Storytelling'
 permalink: 'projects/story-city'
 ---
 
-<h2>Disney Research Zurich (2017)</h2>
+<h2>Disney Research Zurich (2018)</h2>
 
 **Technology Stack:** *Unity3D, C#, Vuforia*
 <div class="project-page-icon-bar">
@@ -39,7 +39,9 @@ permalink: 'projects/story-city'
 <p>
     Since this project was a use-case scenario prototype for the FLAME project (Horizon 2020), the content of the AR stages should be donwloaded as asset bundles from nearby servers and instantiated at runtime. This also reqquired some logic to decide which stage assets need to be places at which location in the city. For this, each connected device would send its progress in the story to a server, which can then decide which assets need to be placed on which database server in order to serve users in a timely and memory efficient fashion.
 </p>
-<img src="../assets/img/drz-flameStoryCityNetwork.jpg" width="80%" class="center-horizontal">
-<p class="caption" style="margin-top:0;">
-    <i>Schema of the network for the prototype, including the Story Compute Server and Repository nodes to download assets from.</i>
-</p>
+<div>
+    <img src="../assets/img/drz-flameStoryCityNetwork.jpg" width="80%" class="center-horizontal">
+    <p class="center-horizontal caption" style="margin-top:2px; width:80%;">
+        <i>Schema of the network for the prototype, including the Story Compute Server and Repository nodes to download assets from.</i>
+    </p>
+</div>

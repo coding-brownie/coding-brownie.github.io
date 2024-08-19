@@ -98,7 +98,7 @@ We developed 3 major prototypes over the course of this project.
   <img src="../assets/img/kiat-roomMesh.jpg" width="66%" class="float-left">  
   <video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:27%;" controls></video>
   <div style="float:none;"></div>
-  <p class="caption" style="margin-top:5px;">
+  <p class="caption" style="margin-top:0px;">
       <i>3D mesh generation and representation in our AR app.</i>
   </p>
 </div>
