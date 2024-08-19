@@ -1,6 +1,31 @@
+:root {
+    /* Purple */
+    /*--primary-color-dark: #2a0927;
+    --primary-color-bright: #721d4b;*/
+    /* Teal */
+    /*--primary-color-dark: #092a28;
+    --primary-color-bright: #115e5a;*/
+    /* Black/White */
+    /*--primary-color-dark: #434343;
+    --primary-color-bright: #979797;*/
+    /* Dark Blue */
+    /*--primary-color-dark: #191924;
+    --primary-color-bright: #3a374f;*/
+    /* yellow/green */
+    --primary-color-dark: #cec190;
+    --primary-color-bright: #71b1ae;
+    --primary-color-dark: #367774;
+    --primary-color-bright: #cec190;
+}
+
 /** Overrides of original css style file **/
 html {
     background-color: #ffffff;
+}
+
+.page-header {
+    background-color: var(--primary-color-dark);
+    background-image: linear-gradient(120deg, var(--primary-color-dark), var(--primary-color-bright));
 }
 
 .main-content {
@@ -8,26 +33,26 @@ html {
 }
 
 .main-content h1 {
-    color: #190b1c;
+    color: var(--primary-color-bright);
 }
 
 .main-content h2 {
-    color: #190b1c;
+    color: var(--primary-color-bright);
 }
 
 .main-content h3 {
-    color: #190b1c;
+    color: var(--primary-color-bright);
 }
 
 .main-content h4 {
-    color: #190b1c;
+    color: var(--primary-color-bright);
 }
 
 .page-footer {
     height: 80px;
     padding-top: 10px;
-    background-color: #190b1c;
-    background-image: linear-gradient(120deg, #190b1c, #5e0250);
+    background-color: var(--primary-color-dark);
+    background-image: linear-gradient(120deg, var(--primary-color-dark), var(--primary-color-bright));
     font-size: 0.8em;
 }
 
@@ -143,9 +168,11 @@ html {
     padding-left: 6px;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(120deg, #190b1cbb, #5e0250bb);
+    background-image: linear-gradient(120deg, var(--primary-color-dark), var(--primary-color-bright));
     color: #eeeeee;
-    font-weight: bold;
+    font-weight: 500;
+    
+    border-top: 2px solid #eeeeee;
 }
 
 
@@ -201,7 +228,7 @@ video {
 
 /** Centers the element horizontally **/
 .center-horizontal {
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
 

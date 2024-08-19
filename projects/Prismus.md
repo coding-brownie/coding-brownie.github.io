@@ -16,17 +16,7 @@ permalink: 'projects/prismus'
   </div>
 </div>
 
-<div style="width:100%; aspect-ratio:16/9; float: none; clear: both; margin: 2px auto;">
-  <embed
-    src="https://www.youtube.com/embed/Dbrw8dgBLek?autohide=1&autoplay=0"
-    wmode="transparent"
-    type="video/mp4"
-    width="100%" height="100%"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    allowfullscreen
-    title="Keyboard Cat"
-  >
-</div>
+<video src="../assets/videos/prismus.mp4" controls></video>
 <p class="caption" style="margin-top:0;">
     <i>Prismus trailer.</i>
 </p>

@@ -6,7 +6,7 @@ layout: default
 ---
 
   <div style="position:relative; padding-top:0px; width:100%; height:284px; background-image:radial-gradient(ellipse at left bottom, #dddddd, #ffffff);">
-    <img style="position:absolute; bottom:0px; width:min(300px, 60%);" src="./assets/img/manu2_crop.png" alt="Manuel">
+    <img style="position:absolute; bottom:0px; width:min(300px, 60%); filter:grayscale(0.2)" src="./assets/img/manu2_crop.png" alt="Manuel">
     <div style="position:absolute; height:284px; bottom:0px; right:0px; width:40%; display:flex; align-items:center;">
         <div class="icon-grid" style="position:absolute; bottom:30px; right:20px; width:100%; ">
             <div class="icon-container">
@@ -28,13 +28,13 @@ layout: default
                 <img src="assets/img/nodejs.png">
             </div>
             <div class="icon-container">
+                <img style="width:34px;" src="assets/img/firebase.png">
+            </div>
+            <div class="icon-container">
                 <img src="assets/img/mongodb.png">
             </div>
             <div class="icon-container">
                 <img src="assets/img/openai.png">
-            </div>
-            <div class="icon-container">
-                <img style="width:36px;" src="assets/img/firebase.png">
             </div>
         </div>
     </div>
