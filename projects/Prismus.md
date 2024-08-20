@@ -6,16 +6,20 @@ permalink: 'projects/prismus'
 
 <h2>ETH Zurich, Master Studies (2015)</h2>
 
-**Technology Stack:** *Unity3D, C#*
+<div class="project-page-tech-stack">
+    <b>Technology Stack:</b> <i>Unity3D, C#</i>
+</div>
 
-<div class="project-page-icon-bar">
+<!--  <div class="project-page-icon-bar">
   <div class="icon-container float-left">
     <img src="../assets/img/unity.png" alt="Unity">
   </div>
   <div class="icon-container float-left">
     <img src="../assets/img/csharp.png" alt="C#">
   </div>
-</div>
+  <!-- Need to clear float, such that parent elements gets height of contained content. -->
+  <!--  <div style="clear:both;"></div>
+</div> -->
 
 <h3 class="intro-text">
     In the Gamelab course of ETH Zurich, the students are tasked to create a game from the ground up over the course of a semester. The overarching theme of that year was Evolution. In a group of 3 people, I helped developing the game "Prismus" and learned a lot in the process.

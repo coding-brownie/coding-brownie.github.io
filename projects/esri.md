@@ -6,7 +6,10 @@ permalink: 'projects/esri'
 
 <h2>Esri R&D, Zurich (2017)</h2>
 
-**Technology Stack:** *Javascript, Ract, Redux*
+<div class="project-page-tech-stack">
+    <b>Technology Stack:</b> <i>Javascript, Ract, Redux</i>
+</div>
+<!-- 
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
     <img src="../assets/img/javascript.png" alt="Javascript">
@@ -17,7 +20,9 @@ permalink: 'projects/esri'
   <div class="icon-container float-left">
     <img src="../assets/img/redux.png" alt="Redux">
   </div>
-</div>
+  <!-- Need to clear float, such that parent elements gets height of contained content. -->
+  <!-- <div style="clear:both;"></div>
+</div> -->
 
 <h3 class="intro-text">
     Bring interactive PowerPoint presentations to Esri's ArcGIS framework. That was essentially the task for my 6-month internship. Under the lead of my supervisor, I created a React/Redux-based web-application to create and visualize dynamic presentations with the ArcGIS API. Here is a rough overview of it.

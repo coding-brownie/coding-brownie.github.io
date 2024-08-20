@@ -6,9 +6,12 @@ permalink: 'projects/ar-museum'
 
 <h2>ETH, Game Technology Center (2019-2021)</h2>
 
-**Technology Stack:** *Unity, C#, Vuforia, OpenCV, Vue.js, Javascript, MongoDB, GridFS, Google BigQuery*
+<div class="project-page-tech-stack">
+  <b>Technology Stack:</b> <i>Unity3D, C#, Vuforia, OpenCV, Javascript, Vue.js, NodeJS, MongoDB</i>
+</div>
 
-<div class="project-page-icon-bar">
+<!-- 
+<div class="project-page-icon-bar" style="filter:grayscale(1);">
   <div class="icon-container float-left">
     <img src="../assets/img/unity.png" alt="Unity">
   </div>
@@ -33,8 +36,10 @@ permalink: 'projects/ar-museum'
   <div class="icon-container float-left">
     <img src="../assets/img/mongodb.png" alt="MongoDB">
   </div>
+  <!-- Need to clear float, such that parent elements gets height of contained content. -->
+  <!-- <div style="clear:both;"></div>
 </div>
-
+-->
 
 
 <h3 class="intro-text">

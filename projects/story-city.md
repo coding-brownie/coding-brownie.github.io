@@ -6,7 +6,10 @@ permalink: 'projects/story-city'
 
 <h2>Disney Research Zurich (2018)</h2>
 
-**Technology Stack:** *Unity3D, C#, Vuforia*
+<div class="project-page-tech-stack">
+    <b>Technology Stack:</b> <i>Unity3D, C#, Vuforia</i>
+</div>
+<!-- 
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
     <img src="../assets/img/unity.png" alt="Unity">
@@ -17,7 +20,9 @@ permalink: 'projects/story-city'
   <div class="icon-container float-left" style="width:48px;">
     <img src="../assets/img/vuforia.png" alt="Vuforia">
   </div>
-</div>
+  <!-- Need to clear float, such that parent elements gets height of contained content. -->
+  <!-- <div style="clear:both;"></div>
+</div> -->
 
 <h3 class="intro-text">
     As a follow-up to my <a href="master-thesis">Master thesis</a>, we extended the interactive storytelling framework iCANVAS to be able to tell interactive stories through AR within a real city environment. This project was a use-case scenario for the FLAME EU project (Horizon 2020).

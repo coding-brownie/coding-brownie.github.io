@@ -6,8 +6,11 @@ permalink: 'projects/gtm'
 
 <h2>ETH, Game Technology Center (2019-2020)</h2>
 
-**Technology Stack:** *Unity3D, C#, Firebase, Vuforia*
+<div class="project-page-tech-stack">
+    <b>Technology Stack:</b> <i>Unity3D, C#, Firebase, Vuforia</i>
+</div>
 
+<!-- 
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
     <img src="../assets/img/unity.png" alt="Unity">
@@ -21,7 +24,9 @@ permalink: 'projects/gtm'
   <div class="icon-container float-left" style="width:48px;">
     <img src="../assets/img/vuforia.png" alt="Vuforia">
   </div>
-</div>
+  <!-- Need to clear float, such that parent elements gets height of contained content. -->
+  <!-- <div style="clear:both;"></div>
+</div> -->
 
 
 <h3 class="intro-text">
@@ -53,7 +58,7 @@ The goal of the competing teams is to get as many seeds as possible. There are t
 <div>
     <img class="center-horizontal" style="width:100%;" src="../assets/img/gtm-playtesting.jpg" alt="Playtesting"/>
     <p class="caption" style="margin-top:0;">
-        <i>Outdoor playtesting, with people looking at a garden.</i>
+        <i>Outdoor playtesting with people looking at a garden. (@ETH, 2019)</i>
     </p>
 </div>
 
@@ -64,7 +69,7 @@ The goal of the competing teams is to get as many seeds as possible. There are t
 
 <img style="width:100%;" src="../assets/img/gtm-uis.jpg" alt="UIs"/>
 <p class="caption" style="margin-top:0;">
-    <i>The various UI screens during gameplay.</i>
+    <i>The various UI screens during gameplay. (@ETH, 2019)</i>
 </p>
 
 <h3>Links</h3>  

@@ -6,7 +6,10 @@ permalink: 'projects/master-thesis'
 
 <h2>Disney Research, Zurich (2017)</h2>
 
-**Technology Stack:** *Unity3D, C#*
+<div class="project-page-tech-stack">
+    <b>Technology Stack:</b> <i>Unity3D, C#</i>
+</div>
+<!-- 
 <div class="project-page-icon-bar">
   <div class="icon-container float-left">
     <img src="../assets/img/unity.png" alt="Unity">
@@ -14,7 +17,9 @@ permalink: 'projects/master-thesis'
   <div class="icon-container float-left">
     <img src="../assets/img/csharp.png" alt="C#">
   </div>
-</div>
+  <!-- Need to clear float, such that parent elements gets height of contained content. -->
+  <!-- <div style="clear:both;"></div>
+</div> -->
 
 
 <h3 class="intro-text">
