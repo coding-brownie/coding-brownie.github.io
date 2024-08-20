@@ -59,7 +59,7 @@ We developed 3 major prototypes over the course of this project.
       title="Keyboard Cat"
     >
   </div>
-  <video src="../assets/videos/kiat-museumGuide.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:2.8/4; width:27%;" controls></video>
+  <video src="../assets/videos/kiat-museumGuide.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:0.7; width:27%;" controls></video>
 </div>
 <p class="caption" style="margin-top:0;">
   <i>Trailer of the first prototype (left) and example footage (right) (@ETH, 2023).</i>
@@ -78,7 +78,7 @@ We developed 3 major prototypes over the course of this project.
       title="Keyboard Cat"
     >
   </div>
-  <video src="../assets/videos/kiat-prototype2.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:29%;" controls></video>
+  <video src="../assets/videos/kiat-prototype2.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:0.75; width:29%;" controls></video>
 </div>
 <p class="caption" style="margin-top:0;">
   <i>Trailer of the second prototype (left) and example footage (right) (@ETH, 2023).</i>
@@ -104,8 +104,8 @@ We developed 3 major prototypes over the course of this project.
 </p>
 
 <div>
-  <img src="../assets/img/kiat-roomMesh.jpg" width="66%" class="float-left">  
-  <video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:3/4; width:27%;" controls></video>
+  <img src="../assets/img/kiat-roomMesh.jpg" width="69%" class="float-left">  
+  <video src="../assets/videos/kiat-sceneMesh.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:3%; aspect-ratio:0.7; width:26%;" controls></video>
   <div style="float:none;"></div>
   <p class="caption" style="margin-top:0px;">
       <i>3D mesh representation of a room (left) and its generation in the AR app (right).</i>
@@ -116,8 +116,8 @@ We developed 3 major prototypes over the course of this project.
   On the generated mesh, we can continuously build a <b>NavMesh</b> for the character to <b>walk and navigate</b> on. Furthermore we can use the mesh to correctly <b>occlude any virtual object</b> when it is behind some physical object. For the museum guide prototype, we further needed an abstract representation of the museum, such that the character could guide the user to the next painting, even if that part of the museum has not yet been scanned by the user. The first approach was with an invisible 3D graph that is anchored on the AR images, the second one by serializing the NavMesh and loading that one again in the next AR session.
 </p>
 <div style="display:block;">
-  <video src="../assets/videos/kiat-navMesh.mp4" class="float-left" style="display:inline-block; margin:0; aspect-ratio:3/4; width:48%;" controls></video>  
-  <video src="../assets/videos/kiat-waynet.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:4%; aspect-ratio:3/4; width:48%;" controls></video>
+  <video src="../assets/videos/kiat-navMesh.mp4" class="float-left" style="display:inline-block; margin:0; aspect-ratio:0.7; width:48%;" controls></video>  
+  <video src="../assets/videos/kiat-waynet.mp4" class="float-left;" style="display:inline-block; margin:0; margin-left:4%; aspect-ratio:0.7; width:48%;" controls></video>
   <div style="float:none;"></div>
   <p class="caption" style="margin-top:5px;">
       <i>Runtime NavMesh generation and visualization of the 3D graph for orientation within a museum.</i>
@@ -160,7 +160,7 @@ We developed 3 major prototypes over the course of this project.
   The runtime of this pipeline is roughly <b>2s</b> and, due to the low resolution of the environment mesh at the moment, this approach only works for larger objects (e.g. chairs and other furniture).
 </p>
 
-<video src="../assets/videos/kiat-detectingObjects.mp4" style="width:50%;" controls></video>
+<video src="../assets/videos/kiat-detectingObjects.mp4" style="width:50%; ratio:0.699;" controls></video>
 <p class="center-horizontal caption" style="margin-top:10px; width:50%;">
     <i>Object detection as seen by the AR app.</i>
 </p>
@@ -189,3 +189,6 @@ We also use GPT to analyze the character's mood, based on what they hair/say and
 Intent recognition (either through CLU or GPT) is used to trigger specific aspects of the story. In the latest prototype we also use GPT to generate dialogs between virtual characters and responses to the user in different languages, even though the prompt language is English. For some languages this works very well, whereas others are definitely not as stable as say English, French and German. 
 </p>
 <p>We use Google Text to Speech, to give our characters a voice. The author only has to define a voice for the character in the Unity editor and the text to speek, or simply let the GPT chatbot behavior do the dialog scripting.</p>
+
+<h2>Links</h2>
+- <a href="https://gtc.inf.ethz.ch/research/augmented-and-virtual-reality-research/icctarvr.html">Project Page (ETH)</a>
