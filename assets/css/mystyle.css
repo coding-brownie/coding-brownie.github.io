@@ -61,7 +61,7 @@ a {
     height: 80px;
     padding-top: 10px;
     background-color: var(--accent-color-1);
-    background-image: linear-gradient(120deg, var(--accent-color-1), var(--accent-color-2));
+    background-image: radial-gradient(ellipse at center bottom, var(--accent-color-1), var(--accent-color-2));
     font-size: 0.8em;
 }
 
