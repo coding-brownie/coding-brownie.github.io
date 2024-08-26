@@ -1,0 +1,319 @@
+/** Define color variables **/
+:root {
+    /* Purple */
+    /*--accent-color-1: #2a0927;
+    --accent-color-2: #721d4b;*/
+    /* Teal */
+    /*--accent-color-1: #092a28;
+    --accent-color-2: #115e5a;*/
+    /* Black/White */
+    /*--accent-color-1: #434343;
+    --accent-color-2: #979797;*/
+    /* Dark Blue */
+    /*--accent-color-1: #191924;
+    --accent-color-2: #3a374f;*/
+    /* yellow/green */
+    --accent-color-1: #cec190;
+    --accent-color-2: #367774;
+    --accent-color-3: #b8a45c;
+}
+
+/** Overrides of original css style file **/
+html {
+    background-color: #ffffff;
+}
+
+/** Different background color and slightly smaller **/
+.page-header {
+    margin-top: -10px;
+    background-color: var(--accent-color-1);
+    background-image: radial-gradient(ellipse at center bottom, var(--accent-color-1), var(--accent-color-2));
+}
+
+.main-content {
+    background-color: #ffffff;
+}
+
+.main-content h1 {
+    color: var(--accent-color-3);
+}
+
+.main-content h2 {
+    color: var(--accent-color-3);
+}
+
+.main-content h3 {
+    color: var(--accent-color-3);
+}
+
+.main-content h4 {
+    color: var(--accent-color-3);
+}
+
+.btn {
+    border-color: rgba(255, 255, 255, 0.5)
+}
+
+a {
+    color: var(--accent-color-2);
+    font-weight: 600;
+}
+
+.page-footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--accent-color-1);
+    background-image: radial-gradient(ellipse at center bottom, var(--accent-color-1), var(--accent-color-2));
+    font-size: 0.8em;
+}
+
+.page-footer p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+.page-footer a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+/** Profile picture area **/
+.background-picture-container {
+    position: absolute;
+    width: 100%;
+    height: 284px;
+}
+
+.background-picture-fader {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0.75) 11%,
+            rgba(255, 255, 255, 0.4) 50%,
+            rgba(255, 255, 255, 0.75) 89%,
+            rgba(255, 255, 255, 1) 100%);
+
+}
+
+.profile-container {
+    position: relative;
+    height: 284px;
+}
+
+.profile-picture {
+    position: absolute;
+    bottom: 0px;
+    width: min(300px, 60%);
+    /* At most 300px wide (fits into 284px height) */
+    filter: grayscale(0.2);
+    /* Fade image a bit */
+}
+
+.skills-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 284px;
+    bottom: 0px;
+    right: 0px;
+    width: 40%;
+}
+
+.skills-grid {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    width: 100%;
+    /* Fill the skills container completely */
+}
+
+
+/** Icon Grid **/
+
+/** Grid of icons inside the profile-picture banner **/
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+    grid-auto-rows: 48px;
+}
+
+/** Container for any icon in the profile-picture banner **/
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Img representing an icon **/
+.icon-container img {
+    width: 40px;
+}
+
+
+/** Project Grid **/
+
+/** Grid container element, displaying the projects **/
+.projects-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 280px;
+}
+
+/** An element within the projects-grid **/
+.project-tile {
+    width: 90%;
+    height: 250px;
+    position: relative;
+    box-shadow: 5px 5px 8px grey;
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+/** Make project-tile bigger when hovering over it **/
+.project-tile:hover {
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+}
+
+/** Project-tile images are black/white by default **/
+.project-tile img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+/** Make project-tile images colored when hovering over them **/
+.project-tile:hover img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+/** Container for the icons on a project-tile **/
+.project-icon-bar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80%;
+    margin: 5px;
+}
+
+/** Container for one icon in the project-icon-bar **/
+.project-icon-bar .icon-container {
+    width: 38px;
+    padding: 4px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Drop shadow for the icons in the project-icon-bar **/
+.project-icon-bar .icon-container img {
+    -webkit-filter: drop-shadow(0px 0px 4px white) grayscale(1);
+    filter: drop-shadow(0px 0px 4px white) grayscale(1);
+}
+
+/** Make icons colored when hovering over the project-tile **/
+.project-tile:hover .icon-container img {
+    -webkit-filter: drop-shadow(0px 0px 4px white) grayscale(0);
+    filter: drop-shadow(0px 0px 4px white) grayscale(0);
+}
+
+/** Title banner within a project-tile (at the bottom) **/
+.project-tile-banner {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    /*background-image: linear-gradient(120deg, var(--primary-color-dark), var(--accent-color-2));*/
+    background-image: radial-gradient(ellipse at center bottom, var(--accent-color-1), var(--accent-color-2));
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 0.9;
+    border-top: 2px solid #ffffff;
+}
+
+
+/** Project page styles **/
+
+/** Banner on top of page. Slightly smaller than the one from the main page **/
+.project-page-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.project-page-tech-stack {
+    font-size: 1rem;
+}
+
+/** Container for the icons on a project page **/
+.project-page-icon-bar {
+    width: 100%;
+    margin: 5px;
+}
+
+/** Container for one icon in the project-icon-bar **/
+.project-page-icon-bar .icon-container {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** General helpers **/
+
+/** Lets element expand to the whole size of the containing element **/
+.expand {
+    width: 100%;
+    height: 100%;
+}
+
+/** Let's image fill the entire size of the containing element without changing the aspect ratio. Img might be cropped **/
+img.expand {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/** Make videos appear centered on the page **/
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/** Centers the element horizontally **/
+.center-horizontal {
+    display: block;
+    margin: 0 auto;
+}
+
+/** Style for image and video captions **/
+.caption {
+    font-size: 0.8rem;
+    line-height: 1.3;
+}
+
+/** Style for the intro text of projects. Uses h2 **/
+.main-content h3.intro-text {
+    margin-top: 1rem;
+}
