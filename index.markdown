@@ -52,7 +52,7 @@ layout: default
 </div>
 
 <!-- Projects -->
-<h1>Projects</h1>
+<h1 id ="projects">Projects</h1>
 A selection of projects that I have been involved in:
 <div class="projects-grid">
     <!-- Scene-aware AR Characters -->
@@ -221,5 +221,5 @@ A selection of projects that I have been involved in:
 </div>
 
 <!-- Contact -->
-<h1>Contact</h1>
+<h1 id ="contact">Contact</h1>
 For questions, collaborations or work opportunities, please reach out to me on [LinkedIn](https://www.linkedin.com/in/manuel-braunschweiler-414872140/).
