@@ -134,7 +134,8 @@ We developed 3 major prototypes over the course of this project.
 </p>
 
 <p>
-  <b>Mask3D with 3D Affordance Prediction:</b> One problem of the DE:TR with 3D Lifting approach is that we only get a partial point-cloud of the object. However, in order to predict the 3D locations of affordances, which would allow our character to perform realistic looking animations with an object, we require a full point-cloud representation of that object. Mask3D can provide us with a full point-cloud. As input it requires a colored point-cloud of the environment. However, as ARFoundation did not support colored or textured environment-meshes at the time when this project was made, we built our own algorithm to create a color-cloud of the environment (based on the RGB-D images), which was then used to query the colors of each vertex of the environment mesh. 
+  <b>Mask3D with 3D Affordance Prediction:</b> One problem of the DE:TR with 3D Lifting approach is that we only get a partial point-cloud of the object. However, in order to predict the 3D locations of affordances, which would allow our character to perform realistic looking animations with an object, we require a full point-cloud representation of that object. Mask3D can provide us with a full point-cloud of every object it detects. 
+  As input, all it requires is a colored point-cloud of the environment. However, as ARFoundation did not support colored or textured environment-meshes at the time when this project was made, we built our own algorithm to create a color-cloud of the environment (based on the RGB-D images). This color-cloud is then used to query the color of each vertex of the environment mesh. 
 </p>
 
 <div>

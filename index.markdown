@@ -47,7 +47,7 @@ layout: default
 <div style="width:100%; margin-top:20px;">
     <p>
         Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a href="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a href="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at <a href="https://esri.com">"Esri R&D</a> and <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a>, and completed my civil service duty helping in the software development team of two different <b>Swiss hospitals</b>. <br>
-        During my career I got the opportunity to work on the <b>full stack</b> of several 3D and AR applications, websites and mobile applications. I enjoy tackling complex problems, discuss the best solution with my team-members, and watch an idea become reality.
+        During my career I got the opportunity to work on the <b>full stack</b> of several 3D and AR applications, websites and mobile applications. I enjoy tackling complex problems, discuss the best solution with my team-members, and work on making an idea become reality.
     </p>
 </div>
 
