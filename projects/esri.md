@@ -47,7 +47,7 @@ The UI is handled by React, which reflects any changes done in the Redux store. 
 
 <img src="../assets/img/esri_overview.png" width="100%" class="center-horizontal">  
 <p class="caption" style="margin-top:0;">
-    <i>Overview of the implemented application.</i>
+    <i>Schematic overview of the implemented application.</i>
 </p>
 
 <div>
