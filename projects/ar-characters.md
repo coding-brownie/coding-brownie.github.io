@@ -40,7 +40,7 @@ permalink: 'projects/ar-characters'
 </p>
 <img src="../assets/img/kiat-cover.jpg" width="100%" class="center-horizontal">
 <p>
-  The project was a collaboration between <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a> and the Graphics and Virtual Reality Lab at the <a href="https://en.sejong.ac.kr/eng/index.do">Sejong University</a> in Seoul. I have been the lead architect on the Swiss side and contributed to the code, coordinated the work of my colleagues and students who did their theses within the scope of this project. 
+  The project was a collaboration between the <a href="https://gtc.inf.ethz.ch/">Game Technology Center</a>, <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a> and the Graphics and Virtual Reality Lab at the <a href="https://en.sejong.ac.kr/eng/index.do">Sejong University</a> in Seoul. I have been the lead architect on the Swiss side and contributed to the code, coordinated the work of my colleagues and students who did their theses within the scope of this project. 
 </p>
 
 <h2>Prototypes</h2>
