@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'XR Surgeryy Simulator'
+title: 'XR Surgery Simulator'
 permalink: 'projects/tha-simulator'
 ---
 
@@ -32,7 +32,7 @@ permalink: 'projects/tha-simulator'
 <p>
   The developed simulator consists of two main logical parts: 1) the Hololens 2 app, to visualize real-time information and offering the main user interface to the user, 2) a server, running several ROS2 nodes that offer real-time tracking data, and perform compute-intensive tasks such as volume renderings for the Hololens. 
 </p>
-<img src="../assets/img/tha-cover.jpg" width="100%" class="center-horizontal">
+<img src="../assets/img/tha-simulator-cover.jpg" width="100%" class="center-horizontal">
 <p>
   This simulator was a collaboration between the <a href="https://rocs.balgrist.ch/de/">ROCS Team at University Clinic Balgrist</a>, and the <a href="https://www.zhaw.ch/en/engineering/institutes-centres/ids">Institut for Data Science at the Zurich University of Applied Sciences (ZHAW)</a>. At the time I took over this work in April 2025, there was already a working prototype. Over the coming 1.5 years, I integrated cutting-edge research results from PhDs into the project, and polished the experience into a workable prototype.
 </p>

@@ -55,12 +55,12 @@ layout: default
 <h1 id ="projects">Projects</h1>
 A selection of projects that I have been involved in:
 <div class="projects-grid">
-    <!-- THA Surgery Simulator -->
+    <!-- XR Surgery Simulator -->
     <div class="project-tile">
         <a href="projects/tha-simulator" class="expand">
             <img src="assets/img/tha-simulator-cover.jpg" class="expand">
             <div class="project-tile-banner">
-                <p style="margin:10px;">THA Simulator</p>
+                <p style="margin:10px;">XR Surgery Simulator</p>
             </div>
             <div class="project-icon-bar">
                 <div class="icon-container">
