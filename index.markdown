@@ -46,8 +46,8 @@ layout: default
 <!-- Introduction -->
 <div style="width:100%; margin-top:20px;">
     <p>
-        Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. I did my Bachelor's and Master's degree in computer science at <a href="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a href="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships at <a href="https://esri.com">"Esri R&D</a> and <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a>, and completed my civil service duty helping in the software development team of two different <b>Swiss hospitals</b>. <br>
-        During my career I got the opportunity to work on the <b>full stack</b> of several 3D and AR applications, websites and mobile applications. I enjoy tackling complex problems, discuss the best solution with my team-members, and work on making an idea become reality.
+        Hello there! My name is Manuel, a software engineer specialized in AR/XR experiences. Currently I am working as a Research Engineer at the University Clinic Balgrist, turning research output into tangible prototypes. I did my Bachelor's and Master's degree in computer science at <a href="https://ethz.ch/">ETH Zurich</a> and continued to work there for 5 years as a software engineer at the <a href="https://gtc.inf.ethz.ch/">Game Technology Center (GTC)</a>. Earlier, I did internships in the industry at <a href="https://esri.com">"Esri R&D</a> and <a href="https://studios.disneyresearch.com/">Disney Research|Studios</a>, and completed my civil service duty helping in the software development team of two different <b>Swiss hospitals</b>. <br>
+        During my career I got the opportunity to work on the <b>full stack</b> of 3D and AR applications, websites, and mobile applications. Furthermore, I was involved in the acquisition and preparation of training data for neural networks in the realm of computer vision, as well as the training of those networks. I enjoy tackling complex problems, discuss the best solution with my team-members, and work on making an idea become reality.
     </p>
 </div>
 
@@ -55,6 +55,32 @@ layout: default
 <h1 id ="projects">Projects</h1>
 A selection of projects that I have been involved in:
 <div class="projects-grid">
+    <!-- THA Surgery Simulator -->
+    <div class="project-tile">
+        <a href="projects/tha-simulator" class="expand">
+            <img src="assets/img/tha-simulator-cover.jpg" class="expand">
+            <div class="project-tile-banner">
+                <p style="margin:10px;">THA Simulator</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/unity.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/csharp.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/python.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/pytorch.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/ros2.png">
+                </div>
+            </div>
+        </a>
+    </div>
     <!-- Scene-aware AR Characters -->
     <div class="project-tile">
         <a href="projects/ar-characters" class="expand">
