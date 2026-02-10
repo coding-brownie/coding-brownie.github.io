@@ -43,6 +43,7 @@ The <a href="vhttps://www.surgicalproficiency.ch/project">PROFICIENCY</a> projec
 <h2>UI</h2>
 I reworked the existing UI to improve the visual experience and responsiveness to inputs.
 
+
 <h2>Tool & Device Tracking</h2>
 During this project we experimented with two different tracking methodologies:
 
