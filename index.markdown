@@ -55,6 +55,26 @@ layout: default
 <h1 id ="projects">Projects</h1>
 A selection of projects that I have been involved in:
 <div class="projects-grid">
+    <!--Markerless Tool Tracking -->
+    <div class="project-tile">
+        <a href="projects/markerless-tracking" class="expand">
+            <img src="assets/img/markerless-tracking-cover.jpg" class="expand">
+            <div class="project-tile-banner">
+                <p style="margin:10px;">Markerless Tool Tracking</p>
+            </div>
+            <div class="project-icon-bar">
+                <div class="icon-container">
+                    <img src="assets/img/python.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/pytorch.png">
+                </div>
+                <div class="icon-container">
+                    <img src="assets/img/ros2.png">
+                </div>
+            </div>
+        </a>
+    </div>      
     <!-- XR Surgery Simulator -->
     <div class="project-tile">
         <a href="projects/tha-simulator" class="expand">
